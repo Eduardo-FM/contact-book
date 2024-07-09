@@ -1,0 +1,13 @@
+<div class="container-fluid">
+  <form class="form">
+    <div class="mb-3 email">
+      <label for="email" class="form-label">Email address</label>
+      <input type="email" class="form-control" id="email" [(ngModel)]="emailAddress" name="email">
+    </div>
+    <div class="mb-3 password">
+      <label for="password" class="form-label">Password</label>
+      <input type="password" class="form-control" id="password" [(ngModel)]="password" name="password">
+    </div>
+    <button type="submit" class="btn button" (click)="login()">Login</button>
+  </form>
+</div>

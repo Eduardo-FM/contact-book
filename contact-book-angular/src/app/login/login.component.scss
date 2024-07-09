@@ -1,0 +1,34 @@
+:root{
+  --main-color: #4f3b78;
+  --secundary-color: #927fbf;
+  --light-color: #c4bbf0;
+  --darker-color: #363b4e;
+}
+
+.container-fluid {
+  background-color: #4f3b78;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Altura total da tela */
+
+  .form {
+    background-color: #ffffff;
+    width: 30%;
+    height: 60%;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 1rem 1rem 0 rgba(0, 0, 0, 0.1);
+    align-items: center;
+
+    .email, .password {
+      margin-bottom: 15px;
+    }
+
+    .button {
+      display: flex;
+      justify-content: center;
+      background-color: #c4bbf0;
+    }
+  }
+}
