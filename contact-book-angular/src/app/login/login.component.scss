@@ -16,19 +16,40 @@
     background-color: #ffffff;
     width: 30%;
     height: 60%;
-    padding: 20px;
+    padding: 50px;
     border-radius: 8px;
     box-shadow: 1rem 1rem 0 rgba(0, 0, 0, 0.1);
     align-items: center;
 
-    .email, .password {
-      margin-bottom: 15px;
-    }
 
-    .button {
+    .image {
       display: flex;
       justify-content: center;
-      background-color: #c4bbf0;
+      margin-bottom: 1rem;
+
+      svg {
+
+        height: 80px;
+        width: 50px;
+      }
+    }
+
+    .form-textarea{
+      display: flex;
+      flex-direction: column;
+      padding-top: 4em;
+
+      .email, .password {
+        margin-bottom: 15px;
+      }
+
+      .button {
+        display: block; /* Torna o botão um elemento de bloco */
+        margin: 5rem auto 0 auto; /* Centraliza o botão */
+        background-color: #c4bbf0;
+        width: 40%; /* Ajuste a largura conforme necessário */
+        text-align: center;
+      }
     }
   }
 }
